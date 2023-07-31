@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* A cada 1 rem será considerado 10px */
+    font-size: 62,5%;
+}
+
+.navbar{
+    width: 100%;
+    background-color: black;
+    height: 20vh;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 7.3vh;
+    margin-left: 4vw;
+}
+
+.navbar-itens{
+    display: flex;
+    margin-right: 8vw;
+    margin-top: 7.3vh;
+}
+
+.navbar-itens a li{
+    color: white;
+    padding: 1vh 1.5vw;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+
+.linkedin{
+    width: 2.5vw;
+    height: 5.5vh;
+}
+
+.gitlab{
+    width: 2.5vw;
+    height: 5.5vh;
+    margin-left: 0.5vw;
+}
+
+.github{
+    width: 2.5vw;
+    height: 5.5vh;
+    margin-left: 0.5vw;
+}
+
+.instagram{
+    width: 2.5vw;
+    height: 5.5vh;
+    margin-left: 0.5vw;
+}
+
+.whatsapp{
+    width: 2.5vw;
+    height: 5.5vh;
+    margin-left: 0.5vw; 
+}
+
+.img-program{
+    width: 40vw;
+    height: 75vh;
+}
+
+.div-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-text h2{
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 4vh;
+    font-size: 2.3rem;
+}
+
+.head-text h3{
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 3vh;
+    font-size: 1.5rem;
+}
+
+.head-text p{
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 3vh;
+    font-size: 1.5rem;
+    color: rgb(97, 97, 97);
+}
+
+.about h2{
+    font-family: 'Pacifico', cursive;
+    margin-top: 35vh;
+    margin-bottom: 10vh;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.div-about{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.card-about{
+    width: 16vw;
+    height: 65vh;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+}
+
+.card-about h3{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.img-card-a{
+    width: 4vw;
+    height: 8vh;
+    margin-top: 4vh;
+    margin-left: 39%;
+    margin-bottom: 1vh;
+}
+
+.card-about p{
+    font-family: 'Pacifico', cursive;
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: rgb(97, 97, 97);
+}
+
+.projects h2{
+    font-family: 'Pacifico', cursive;
+    margin-top: 35vh;
+    margin-bottom: 10vh;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.div-projects{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.card-projects{
+    width: 16vw;
+    height: 65vh;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+}
+
+
+.card-projects h3{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.img-card-p{
+    width: 4vw;
+    height: 8vh;
+    margin-top: 4vh;
+    margin-left: 39%;
+    margin-bottom: 1vh;
+}
+
+.card-projects p{
+    font-family: 'Pacifico', cursive;
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: rgb(97, 97, 97);
+}
+
+.contact h2{
+    font-family: 'Pacifico', cursive;
+    margin-top: 35vh;
+    margin-bottom: 10vh;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.div-contact{
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+.form p{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3rem;
+    color: rgb(97, 97, 97);
+}
+
+.form button{
+    width: 4vw;
+    height: 4vh;
+    font-size: 1rem;
+}
+
+.div-listra{
+    background-color:aqua ;
+    height: 0.8vh;
+}
+
+.div-footer{
+    background: linear-gradient(
+        rgb(0, 0, 0) 80%,
+        rgb(0, 255, 255) 
+    );
+    height: 30vh;
+    text-align: center;
+}
+
+footer .div-footer h1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.div-listra2{
+    height: 4.3vh;
+    background-color: black;
+}
+
+.div-footer img{
+    text-align: center;
+    margin-top: 3vh;
+}
